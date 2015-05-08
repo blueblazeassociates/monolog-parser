@@ -1,10 +1,22 @@
-.DS_Store
-vendor
-composer.phar
-composer.lock
-.buildpath
-.settings
-.project
-bin
+##
+# The following settings control what folders/files are ignored (or not ignored) by Git.
+##
+
+# Exclude Eclipse IDE files.
+/.settings
+/.buildpath
+/.project
+
+# Exclude Composer files.
+/bin
+/composer
+/composer.lock
+/composer.phar
+/vendor
+
+# Exclude these files, too.
 /nbproject/*
+
+# Exclude all matching patterns.
+.DS_Store
 *.iml
